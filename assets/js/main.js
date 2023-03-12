@@ -246,12 +246,12 @@
             $(this).addClass('active');
         });
 
-        //codes for Players search tabs
+        //codes for Clubs search tabs
         $('.tab_btnp').click(function () {
             var tab_idp = $(this).attr('data-tab');
 
             $('.tab_btnp').removeClass('activ');
-            $('.player_search_tabs').removeClass('activ');
+            $('.club_search_tabs').removeClass('activ');
 
             $(this).addClass('activ');
             $("#" + tab_idp).addClass('activ');
