@@ -419,8 +419,8 @@ section {
 
 /*====accordion section end====*/
 
-/*====player search section start====*/
-.player_search_wrapper {
+/*====club search section start====*/
+.club_search_wrapper {
     padding-top: 120px;
     .container {
         .input_search_wrapper {
@@ -468,16 +468,16 @@ section {
                 }
             }
         }
-        .player_info_wrapper {
+        .club_info_wrapper {
             background-color: rgb(53, 52, 113);
             padding: 20px 20px;
             @include border-radius(60px);
             margin-top: 30px;
             margin-bottom: 30px;
-            .player_info_row {
+            .club_info_row {
                 .col-md-5 {
-                    .player_info {
-                        .player_img {
+                    .club_info {
+                        .club_img {
                             a {
                                 text-decoration: none;
                                 display: inline-block;
@@ -498,7 +498,7 @@ section {
                                 }
                             }
                         }
-                        .player_name {
+                        .club_name {
                             margin-left: 20px;
                             a {
                                 text-decoration: none;
@@ -523,7 +523,7 @@ section {
                     }
                 }
                 .col-md-7 {
-                    .player_price {
+                    .club_price {
                         .club_name {
                             span {
                                 font-family: $open-sans;
@@ -590,7 +590,7 @@ section {
                     }
                 }
                 .col-md-12 {
-                    .player_buy_sell {
+                    .club_buy_sell {
                         .btn_wrapper {
                             .btn {
                                 text-decoration: none;
@@ -620,7 +620,7 @@ section {
     }
 }
 
-/*====player search section end====*/
+/*====club search section end====*/
 
 /*====game section start====*/
 .game_wrapper {
@@ -1361,7 +1361,7 @@ section {
     .container {
         .experience {
             background-color: $section-bg;
-            background-image: url("../images/experience/basketball_player.png"), url("../images/experience/football_player.png"), url("../images/experience/bg.png");
+            background-image: url("../images/experience/basketball_club.png"), url("../images/experience/football_club.png"), url("../images/experience/bg.png");
             background-repeat: no-repeat, no-repeat, no-repeat;
             background-size: auto, auto, contain;
             background-position: left bottom 40px, right top 50px, left 0px bottom 0px;
