@@ -769,8 +769,8 @@ if(invChartDuplicate != null) {
 }
 
 
-//clubs One value chart
-var clubOne = {
+//players One value chart
+var playerOne = {
   colors: ['#FF8F3D'],
   chart: {
       width: 150,
@@ -843,14 +843,14 @@ var clubOne = {
 
 var pOneChart = document.getElementById("profile_chart_one");
 if(pOneChart != null) { 
-  var clubOneRender = new ApexCharts(
+  var playerOneRender = new ApexCharts(
       document.querySelector("#profile_chart_one"),
-      clubOne);
-      clubOneRender.render();
+      playerOne);
+      playerOneRender.render();
 }
 
-//clubs Two value chart
-var clubTwo = {
+//players Two value chart
+var playerTwo = {
   colors: ['#9b5d8b'],
   chart: {
       width: 150,
@@ -923,14 +923,14 @@ var clubTwo = {
 
 var pTwoChart = document.getElementById("profile_chart_two");
 if(pTwoChart != null) { 
-  var clubTwoRender = new ApexCharts(
+  var playerTwoRender = new ApexCharts(
       document.querySelector("#profile_chart_two"),
-      clubTwo);
-      clubTwoRender.render();
+      playerTwo);
+      playerTwoRender.render();
 }
 
-//clubs Three value chart
-var clubThree = {
+//players Three value chart
+var playerThree = {
   colors: ['#05b1ff'],
   chart: {
       width: 150,
@@ -1003,14 +1003,14 @@ var clubThree = {
 
 var pThreeChart = document.getElementById("profile_chart_three");
 if(pThreeChart != null) { 
-  var clubThreeRender = new ApexCharts(
+  var playerThreeRender = new ApexCharts(
       document.querySelector("#profile_chart_three"),
-      clubThree);
-      clubThreeRender.render();
+      playerThree);
+      playerThreeRender.render();
 }
 
-//clubs Four value chart
-var clubFour = {
+//players Four value chart
+var playerFour = {
   colors: ['#22d8da'],
   chart: {
       width: 150,
@@ -1083,14 +1083,14 @@ var clubFour = {
 
 var pFourChart = document.getElementById("profile_chart_four");
 if(pFourChart != null) { 
-  var clubFourRender = new ApexCharts(
+  var playerFourRender = new ApexCharts(
       document.querySelector("#profile_chart_four"),
-      clubFour);
-      clubFourRender.render();
+      playerFour);
+      playerFourRender.render();
 }
 
-//clubs Five value chart
-var clubFive = {
+//players Five value chart
+var playerFive = {
   colors: ['#db53a3'],
   chart: {
       width: 150,
@@ -1163,14 +1163,14 @@ var clubFive = {
 
 var pFiveChart = document.getElementById("profile_chart_five");
 if(pFiveChart != null) { 
-  var clubFiveRender = new ApexCharts(
+  var playerFiveRender = new ApexCharts(
       document.querySelector("#profile_chart_five"),
-      clubFive);
-      clubFiveRender.render();
+      playerFive);
+      playerFiveRender.render();
 }
 
-//clubs Six value chart
-var clubSix = {
+//players Six value chart
+var playerSix = {
   colors: ['#fb873b'],
   chart: {
       width: 150,
@@ -1243,14 +1243,14 @@ var clubSix = {
 
 var pSixChart = document.getElementById("profile_chart_six");
 if(pSixChart != null) { 
-  var clubSixRender = new ApexCharts(
+  var playerSixRender = new ApexCharts(
       document.querySelector("#profile_chart_six"),
-      clubSix);
-      clubSixRender.render();
+      playerSix);
+      playerSixRender.render();
 }
 
-//clubs One value chart
-var clubSeven = {
+//players One value chart
+var playerSeven = {
   colors: ['#FF8F3D'],
   chart: {
       width: 150,
@@ -1323,14 +1323,14 @@ var clubSeven = {
 
 var pSevenChart = document.getElementById("profile_chart_seven");
 if(pSevenChart != null) { 
-  var clubSevenRender = new ApexCharts(
+  var playerSevenRender = new ApexCharts(
       document.querySelector("#profile_chart_seven"),
-      clubSeven);
-      clubSevenRender.render();
+      playerSeven);
+      playerSevenRender.render();
 }
 
-//clubs Two value chart
-var clubEight = {
+//players Two value chart
+var playerEight = {
   colors: ['#9b5d8b'],
   chart: {
       width: 150,
@@ -1403,14 +1403,14 @@ var clubEight = {
 
 var pEightChart = document.getElementById("profile_chart_eight");
 if(pEightChart != null) { 
-  var clubEightRender = new ApexCharts(
+  var playerEightRender = new ApexCharts(
       document.querySelector("#profile_chart_eight"),
-      clubEight);
-      clubEightRender.render();
+      playerEight);
+      playerEightRender.render();
 }
 
-//clubs Three value chart
-var clubNine = {
+//players Three value chart
+var playerNine = {
   colors: ['#05b1ff'],
   chart: {
       width: 150,
@@ -1483,14 +1483,14 @@ var clubNine = {
 
 var pNineChart = document.getElementById("profile_chart_nine");
 if(pNineChart != null) { 
-  var clubNineRender = new ApexCharts(
+  var playerNineRender = new ApexCharts(
       document.querySelector("#profile_chart_nine"),
-      clubNine);
-      clubNineRender.render();
+      playerNine);
+      playerNineRender.render();
 }
 
-//clubs Ten value chart
-var clubTen = {
+//players Ten value chart
+var playerTen = {
   colors: ['#22d8da'],
   chart: {
       width: 150,
@@ -1563,14 +1563,14 @@ var clubTen = {
 
 var pTenChart = document.getElementById("profile_chart_ten");
 if(pTenChart != null) { 
-  var clubTenRender = new ApexCharts(
+  var playerTenRender = new ApexCharts(
       document.querySelector("#profile_chart_ten"),
-      clubTen);
-      clubTenRender.render();
+      playerTen);
+      playerTenRender.render();
 }
 
-//clubs One value chart
-var clubOnew = {
+//players One value chart
+var playerOnew = {
   colors: ['#FF8F3D'],
   chart: {
       width: 150,
@@ -1643,14 +1643,14 @@ var clubOnew = {
 
 var pOneChartw = document.getElementById("profile_chart_onew");
 if(pOneChartw != null) { 
-  var clubOneRenderw = new ApexCharts(
+  var playerOneRenderw = new ApexCharts(
       document.querySelector("#profile_chart_onew"),
-      clubOnew);
-      clubOneRenderw.render();
+      playerOnew);
+      playerOneRenderw.render();
 }
 
-//clubs Two value chart
-var clubTwow = {
+//players Two value chart
+var playerTwow = {
   colors: ['#9b5d8b'],
   chart: {
       width: 150,
@@ -1723,14 +1723,14 @@ var clubTwow = {
 
 var pTwoChartw = document.getElementById("profile_chart_twow");
 if(pTwoChartw != null) { 
-  var clubTwoRenderw = new ApexCharts(
+  var playerTwoRenderw = new ApexCharts(
       document.querySelector("#profile_chart_twow"),
-      clubTwow);
-      clubTwoRenderw.render();
+      playerTwow);
+      playerTwoRenderw.render();
 }
 
-//clubs Three value chart
-var clubThreew = {
+//players Three value chart
+var playerThreew = {
   colors: ['#05b1ff'],
   chart: {
       width: 150,
@@ -1803,14 +1803,14 @@ var clubThreew = {
 
 var pThreeChartw = document.getElementById("profile_chart_threew");
 if(pThreeChartw != null) { 
-  var clubThreeRenderw = new ApexCharts(
+  var playerThreeRenderw = new ApexCharts(
       document.querySelector("#profile_chart_threew"),
-      clubThreew);
-      clubThreeRenderw.render();
+      playerThreew);
+      playerThreeRenderw.render();
 }
 
-//clubs Four value chart
-var clubFourw = {
+//players Four value chart
+var playerFourw = {
   colors: ['#22d8da'],
   chart: {
       width: 150,
@@ -1883,14 +1883,14 @@ var clubFourw = {
 
 var pFourChartw = document.getElementById("profile_chart_fourw");
 if(pFourChartw != null) { 
-  var clubFourRenderw = new ApexCharts(
+  var playerFourRenderw = new ApexCharts(
       document.querySelector("#profile_chart_fourw"),
-      clubFourw);
-      clubFourRenderw.render();
+      playerFourw);
+      playerFourRenderw.render();
 }
 
-//clubs Five value chart
-var clubFivew = {
+//players Five value chart
+var playerFivew = {
   colors: ['#db53a3'],
   chart: {
       width: 150,
@@ -1963,14 +1963,14 @@ var clubFivew = {
 
 var pFiveChartw = document.getElementById("profile_chart_fivew");
 if(pFiveChartw != null) { 
-  var clubFiveRenderw = new ApexCharts(
+  var playerFiveRenderw = new ApexCharts(
       document.querySelector("#profile_chart_fivew"),
-      clubFivew);
-      clubFiveRenderw.render();
+      playerFivew);
+      playerFiveRenderw.render();
 }
 
-//clubs Six value chart
-var clubSixw = {
+//players Six value chart
+var playerSixw = {
   colors: ['#fb873b'],
   chart: {
       width: 150,
@@ -2043,14 +2043,14 @@ var clubSixw = {
 
 var pSixChartw = document.getElementById("profile_chart_sixw");
 if(pSixChartw != null) { 
-  var clubSixRenderw = new ApexCharts(
+  var playerSixRenderw = new ApexCharts(
       document.querySelector("#profile_chart_sixw"),
-      clubSixw);
-      clubSixRenderw.render();
+      playerSixw);
+      playerSixRenderw.render();
 }
 
-//clubs One value chart
-var clubSevenw = {
+//players One value chart
+var playerSevenw = {
   colors: ['#FF8F3D'],
   chart: {
       width: 150,
@@ -2123,14 +2123,14 @@ var clubSevenw = {
 
 var pSevenChartw = document.getElementById("profile_chart_sevenw");
 if(pSevenChartw != null) { 
-  var clubSevenRenderw = new ApexCharts(
+  var playerSevenRenderw = new ApexCharts(
       document.querySelector("#profile_chart_sevenw"),
-      clubSevenw);
-      clubSevenRenderw.render();
+      playerSevenw);
+      playerSevenRenderw.render();
 }
 
-//clubs Two value chart
-var clubEightw = {
+//players Two value chart
+var playerEightw = {
   colors: ['#9b5d8b'],
   chart: {
       width: 150,
@@ -2203,14 +2203,14 @@ var clubEightw = {
 
 var pEightChartw = document.getElementById("profile_chart_eightw");
 if(pEightChartw != null) { 
-  var clubEightRenderw = new ApexCharts(
+  var playerEightRenderw = new ApexCharts(
       document.querySelector("#profile_chart_eightw"),
-      clubEightw);
-      clubEightRenderw.render();
+      playerEightw);
+      playerEightRenderw.render();
 }
 
-//clubs Three value chart
-var clubNinew = {
+//players Three value chart
+var playerNinew = {
   colors: ['#05b1ff'],
   chart: {
       width: 150,
@@ -2283,14 +2283,14 @@ var clubNinew = {
 
 var pNineChartw = document.getElementById("profile_chart_ninew");
 if(pNineChartw != null) { 
-  var clubNineRenderw = new ApexCharts(
+  var playerNineRenderw = new ApexCharts(
       document.querySelector("#profile_chart_ninew"),
-      clubNinew);
-      clubNineRenderw.render();
+      playerNinew);
+      playerNineRenderw.render();
 }
 
-//clubs Ten value chart
-var clubTenw = {
+//players Ten value chart
+var playerTenw = {
   colors: ['#22d8da'],
   chart: {
       width: 150,
@@ -2363,14 +2363,14 @@ var clubTenw = {
 
 var pTenChartw = document.getElementById("profile_chart_tenw");
 if(pTenChartw != null) { 
-  var clubTenRenderw = new ApexCharts(
+  var playerTenRenderw = new ApexCharts(
       document.querySelector("#profile_chart_tenw"),
-      clubTenw);
-      clubTenRenderw.render();
+      playerTenw);
+      playerTenRenderw.render();
 }
 
-//clubs One value chart
-var clubOner = {
+//players One value chart
+var playerOner = {
   colors: ['#FF8F3D'],
   chart: {
       width: 150,
@@ -2443,14 +2443,14 @@ var clubOner = {
 
 var pOneChartr = document.getElementById("profile_chart_oner");
 if(pOneChartr != null) { 
-  var clubOneRenderr = new ApexCharts(
+  var playerOneRenderr = new ApexCharts(
       document.querySelector("#profile_chart_oner"),
-      clubOner);
-      clubOneRenderr.render();
+      playerOner);
+      playerOneRenderr.render();
 }
 
-//clubs Two value chart
-var clubTwor = {
+//players Two value chart
+var playerTwor = {
   colors: ['#9b5d8b'],
   chart: {
       width: 150,
@@ -2523,14 +2523,14 @@ var clubTwor = {
 
 var pTwoChartr = document.getElementById("profile_chart_twor");
 if(pTwoChartr != null) { 
-  var clubTwoRenderr = new ApexCharts(
+  var playerTwoRenderr = new ApexCharts(
       document.querySelector("#profile_chart_twor"),
-      clubTwor);
-      clubTwoRenderr.render();
+      playerTwor);
+      playerTwoRenderr.render();
 }
 
-//clubs Three value chart
-var clubThreer = {
+//players Three value chart
+var playerThreer = {
   colors: ['#05b1ff'],
   chart: {
       width: 150,
@@ -2603,14 +2603,14 @@ var clubThreer = {
 
 var pThreeChartr = document.getElementById("profile_chart_threer");
 if(pThreeChartr != null) { 
-  var clubThreeRenderr = new ApexCharts(
+  var playerThreeRenderr = new ApexCharts(
       document.querySelector("#profile_chart_threer"),
-      clubThreer);
-      clubThreeRenderr.render();
+      playerThreer);
+      playerThreeRenderr.render();
 }
 
-//clubs Four value chart
-var clubFourr = {
+//players Four value chart
+var playerFourr = {
   colors: ['#22d8da'],
   chart: {
       width: 150,
@@ -2683,14 +2683,14 @@ var clubFourr = {
 
 var pFourChartr = document.getElementById("profile_chart_fourr");
 if(pFourChartr != null) { 
-  var clubFourRenderr = new ApexCharts(
+  var playerFourRenderr = new ApexCharts(
       document.querySelector("#profile_chart_fourr"),
-      clubFourr);
-      clubFourRenderr.render();
+      playerFourr);
+      playerFourRenderr.render();
 }
 
-//clubs Five value chart
-var clubFiver = {
+//players Five value chart
+var playerFiver = {
   colors: ['#db53a3'],
   chart: {
       width: 150,
@@ -2763,14 +2763,14 @@ var clubFiver = {
 
 var pFiveChartr = document.getElementById("profile_chart_fiver");
 if(pFiveChartr != null) { 
-  var clubFiveRenderr = new ApexCharts(
+  var playerFiveRenderr = new ApexCharts(
       document.querySelector("#profile_chart_fiver"),
-      clubFiver);
-      clubFiveRenderr.render();
+      playerFiver);
+      playerFiveRenderr.render();
 }
 
-//clubs Six value chart
-var clubSixr = {
+//players Six value chart
+var playerSixr = {
   colors: ['#fb873b'],
   chart: {
       width: 150,
@@ -2843,14 +2843,14 @@ var clubSixr = {
 
 var pSixChartr = document.getElementById("profile_chart_sixr");
 if(pSixChartr != null) { 
-  var clubSixRenderr = new ApexCharts(
+  var playerSixRenderr = new ApexCharts(
       document.querySelector("#profile_chart_sixr"),
-      clubSixr);
-      clubSixRenderr.render();
+      playerSixr);
+      playerSixRenderr.render();
 }
 
-//clubs One value chart
-var clubSevenr = {
+//players One value chart
+var playerSevenr = {
   colors: ['#FF8F3D'],
   chart: {
       width: 150,
@@ -2923,14 +2923,14 @@ var clubSevenr = {
 
 var pSevenChartr = document.getElementById("profile_chart_sevenr");
 if(pSevenChartr != null) { 
-  var clubSevenRenderr = new ApexCharts(
+  var playerSevenRenderr = new ApexCharts(
       document.querySelector("#profile_chart_sevenr"),
-      clubSevenr);
-      clubSevenRenderr.render();
+      playerSevenr);
+      playerSevenRenderr.render();
 }
 
-//clubs Two value chart
-var clubEightr = {
+//players Two value chart
+var playerEightr = {
   colors: ['#9b5d8b'],
   chart: {
       width: 150,
@@ -3003,14 +3003,14 @@ var clubEightr = {
 
 var pEightChartr = document.getElementById("profile_chart_eightrr");
 if(pEightChartr != null) { 
-  var clubEightRenderr = new ApexCharts(
+  var playerEightRenderr = new ApexCharts(
       document.querySelector("#profile_chart_eightrr"),
-      clubEightr);
-      clubEightRenderr.render();
+      playerEightr);
+      playerEightRenderr.render();
 }
 
-//clubs Three value chart
-var clubNiner = {
+//players Three value chart
+var playerNiner = {
   colors: ['#05b1ff'],
   chart: {
       width: 150,
@@ -3083,14 +3083,14 @@ var clubNiner = {
 
 var pNineChartr = document.getElementById("profile_chart_niner");
 if(pNineChartr != null) { 
-  var clubNineRenderr = new ApexCharts(
+  var playerNineRenderr = new ApexCharts(
       document.querySelector("#profile_chart_niner"),
-      clubNiner);
-      clubNineRenderr.render();
+      playerNiner);
+      playerNineRenderr.render();
 }
 
-//clubs Recent Ten value chart
-var clubTenr = {
+//players Recent Ten value chart
+var playerTenr = {
   colors: ['#22d8da'],
   chart: {
       width: 150,
@@ -3163,10 +3163,10 @@ var clubTenr = {
 
 var pTenChartr = document.getElementById("profile_chart_tenr");
 if(pTenChartr != null) { 
-  var clubTenRenderr = new ApexCharts(
+  var playerTenRenderr = new ApexCharts(
       document.querySelector("#profile_chart_tenr"),
-      clubTenr);
-      clubTenRenderr.render();
+      playerTenr);
+      playerTenRenderr.render();
 }
 
 //fantasy charts start

@@ -16,10 +16,10 @@
         background-position: center center;
     }
 
-    //club search wrapper
-    .club_search_wrapper {
+    //player search wrapper
+    .player_search_wrapper {
         background-color: transparent;
-        background-image: url("../images/club_search/hockey.png"), url("../images/club_search/basketball.png");
+        background-image: url("../images/player_search/hockey.png"), url("../images/player_search/basketball.png");
         background-repeat: no-repeat, no-repeat;
         background-size: auto, auto;
         background-position: left 0px bottom 70px, right 0px bottom 20px;
@@ -332,10 +332,10 @@
         padding-bottom: 167px;
     }
 
-    //club search wrapper
-    .club_search_wrapper {
+    //player search wrapper
+    .player_search_wrapper {
         background-color: transparent;
-        background-image: url("../images/club_search/hockey.png"), url("../images/club_search/basketball.png");
+        background-image: url("../images/player_search/hockey.png"), url("../images/player_search/basketball.png");
         background-repeat: no-repeat, no-repeat;
         background-size: 300px 400px, 300px 400px;
         background-position: left 0px top 200px, right 0px top 100px;
@@ -539,7 +539,7 @@
                                                         padding-right: 15px;
                                                     }
                                                 }
-                                                .club_info {
+                                                .player_info {
                                                     .wrapper {
                                                         .info_wrapper {
                                                             a {
@@ -775,8 +775,8 @@
         }
     }
 
-    //club search section
-    .club_search_wrapper {
+    //player search section
+    .player_search_wrapper {
         .container {
             .input_search_wrapper {
                 @include border-radius(0px);
@@ -789,7 +789,7 @@
                     }
                 }
             }
-            .club_info_wrapper {
+            .player_info_wrapper {
                 @include border-radius(0px);
             }
         }
@@ -925,7 +925,7 @@
     section {
         .container {
             .experience {
-                background-image: url("../images/experience/basketball_club.png"), url("../images/experience/football_club.png"), url("../images/experience/bg.png");
+                background-image: url("../images/experience/basketball_player.png"), url("../images/experience/football_player.png"), url("../images/experience/bg.png");
                 background-repeat: no-repeat, no-repeat, no-repeat;
                 background-size: 300px 300px, 300px 300px, contain;
                 background-position: left bottom 40px, right top 50px, left 0px bottom 0px;
@@ -1166,13 +1166,13 @@
         }
     }
 
-    //club search wrapper
-    .club_search_wrapper {
+    //player search wrapper
+    .player_search_wrapper {
         padding-top: 100px;
         .container {
-            .club_info_wrapper {
+            .player_info_wrapper {
                 @include border-radius(0px);
-                .club_info_row {
+                .player_info_row {
                     .col-md-5 {
                         margin-top: 20px;
                         margin-bottom: 20px;
@@ -1310,7 +1310,7 @@
     section {
         .container {
             .experience {
-                background-image: url("../images/experience/basketball_club.png"), url("../images/experience/football_club.png"), url("../images/experience/bg.png");
+                background-image: url("../images/experience/basketball_player.png"), url("../images/experience/football_player.png"), url("../images/experience/bg.png");
                 background-repeat: no-repeat, no-repeat, no-repeat;
                 background-size: 200px 200px, 200px 200px, contain;
                 background-position: left bottom 40px, right top 50px, left 0px bottom 0px;
@@ -1454,7 +1454,7 @@
                                 }
                             }
                         }
-                        //club search styles
+                        //player search styles
                         .league_cover_wrapper {
                             .league_info {
                                 padding: 100px 12px 108px;
@@ -1465,9 +1465,9 @@
                                     font-size: 38px!important;
                                 }
                             }
-                            .clubs_tab_wrapper {
-                                .club_search_tabs {
-                                    .clubs_responsive_table_wrapper {
+                            .players_tab_wrapper {
+                                .player_search_tabs {
+                                    .players_responsive_table_wrapper {
                                         .table {
                                             tr {
                                                 td {
@@ -1495,7 +1495,7 @@
                                                                 }
                                                             }
                                                         }
-                                                        .club_name {
+                                                        .player_name {
                                                             a {
                                                                 font-size: 16px!important;
                                                             }
@@ -1632,9 +1632,9 @@
                 .col-xl-9 {
                     .inner_left {
                         .league_cover_wrapper {
-                            .clubs_tab_wrapper {
-                                .club_search_tabs {
-                                    .clubs_responsive_table_wrapper {
+                            .players_tab_wrapper {
+                                .player_search_tabs {
+                                    .players_responsive_table_wrapper {
                                         overflow-x: auto;
                                         .table {
                                             min-width: 768px;
@@ -1902,8 +1902,8 @@
         }
     }
 
-    //club search wrapper
-    .club_search_wrapper {
+    //player search wrapper
+    .player_search_wrapper {
         padding-top: 80px;
         .container {
             .input_search_wrapper {
@@ -2236,7 +2236,7 @@
     section {
         .container {
             .experience {
-                background-image: url("../images/experience/basketball_club.png"), url("../images/experience/football_club.png"), url("../images/experience/bg.png");
+                background-image: url("../images/experience/basketball_player.png"), url("../images/experience/football_player.png"), url("../images/experience/bg.png");
                 background-repeat: no-repeat, no-repeat, no-repeat;
                 background-size: 150px 150px, 150px 150px, contain;
                 background-position: left bottom 40px, right bottom 80px, left 0px bottom 0px;
@@ -2527,7 +2527,7 @@
                                     }
                                 }
                             }
-                            //club search styles
+                            //player search styles
                             .league_cover_wrapper {
                                 .league_info {
                                     padding: 80px 12px 88px;
@@ -2538,7 +2538,7 @@
                                         font-size: 30px!important;
                                     }
                                 }
-                                .clubs_tab_wrapper {
+                                .players_tab_wrapper {
                                     .tab_btn_wrapper {
                                         background-color: $sidebar-bg;
                                         padding: 18px 0px 18px;
@@ -2546,7 +2546,7 @@
                                             font-size: 16px;
                                         }
                                     }
-                                    .club_search_tab_wrapper {
+                                    .player_search_tab_wrapper {
                                         background-color: #3a398a;
                                         padding: 15px 12px;
                                         @include border-radius(0px);
@@ -2584,7 +2584,7 @@
                                         }
                                     }
                                     #best {
-                                        .clubs_responsive_table_wrapper {
+                                        .players_responsive_table_wrapper {
                                             overflow-x: scroll;
                                             &::-webkit-scrollbar {
                                                 height: 6px;
@@ -2974,8 +2974,8 @@
         }
     }
 
-    //club search wrapper
-    .club_search_wrapper {
+    //player search wrapper
+    .player_search_wrapper {
         .container {
             .input_search_wrapper {
                 padding: 20px 12px;
@@ -2999,11 +2999,11 @@
                     }
                 }
             }
-            .club_info_wrapper {
+            .player_info_wrapper {
                 padding: 20px 12px;
-                .club_info_row {
+                .player_info_row {
                     .col-md-7 {
-                        .club_price {
+                        .player_price {
                             .price {
                                 margin: 0px 20px;
                                 p {
@@ -3273,7 +3273,7 @@
             .experience {
                 padding-right: 12px;
                 padding-left: 12px;
-                background-image: url("../images/experience/basketball_club.png"), url("../images/experience/football_club.png"), url("../images/experience/bg.png");
+                background-image: url("../images/experience/basketball_player.png"), url("../images/experience/football_player.png"), url("../images/experience/bg.png");
                 background-repeat: no-repeat, no-repeat, no-repeat;
                 background-size: 80px 80px, 80px 80px, contain;
                 background-position: left bottom 100px, right bottom 20px, left 0px bottom 0px;

@@ -28,7 +28,7 @@
                                     margin-top: 5px;
                                 }
                             }
-                            .clubs_tab_wrapper {
+                            .players_tab_wrapper {
                                 .tab_btn_wrapper {
                                     background-color: $sidebar-bg;
                                     padding: 24px 0px 71px;
@@ -56,7 +56,7 @@
                                         color: rgb( 245, 49, 127 );
                                     }
                                 }
-                                .club_search_tab_wrapper {
+                                .player_search_tab_wrapper {
                                     background-color: #3a398a;
                                     padding:17px 15px;
                                     position: relative;
@@ -106,10 +106,10 @@
                                         }
                                     }
                                 }
-                                .club_search_tabs {
+                                .player_search_tabs {
                                     margin-top: 40px;
                                     overflow-x: auto;
-                                    .clubs_responsive_table_wrapper {
+                                    .players_responsive_table_wrapper {
                                         .table {
                                             border-collapse: separate;
                                             border-spacing: 0px 25px;
@@ -151,7 +151,7 @@
                                                                 }
                                                             }
                                                         }
-                                                        .club_name {
+                                                        .player_name {
                                                             margin-left: 20px;
                                                             a {
                                                                 text-decoration: none;
