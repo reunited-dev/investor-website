@@ -1792,10 +1792,10 @@ section .container .invite_wrapper {
         padding: 20px 30px; }
 
 /*====accordion section end====*/
-/*====player search section start====*/
-.player_search_wrapper {
+/*====club search section start====*/
+.club_search_wrapper {
   padding-top: 120px; }
-  .player_search_wrapper .container .input_search_wrapper {
+  .club_search_wrapper .container .input_search_wrapper {
     background-color: #3a398a;
     padding: 22px 20px;
     -webkit-border-radius: 60px;
@@ -1803,9 +1803,9 @@ section .container .invite_wrapper {
     -ms-border-radius: 60px;
     border-radius: 60px;
     margin-bottom: 60px; }
-    .player_search_wrapper .container .input_search_wrapper form {
+    .club_search_wrapper .container .input_search_wrapper form {
       position: relative; }
-      .player_search_wrapper .container .input_search_wrapper form input {
+      .club_search_wrapper .container .input_search_wrapper form input {
         padding: 25px 180px 25px 40px;
         -webkit-border-radius: 60px;
         -moz-border-radius: 60px;
@@ -1818,17 +1818,17 @@ section .container .invite_wrapper {
         line-height: 1.556;
         font-weight: 400;
         color: #ffffff; }
-        .player_search_wrapper .container .input_search_wrapper form input::placeholder {
+        .club_search_wrapper .container .input_search_wrapper form input::placeholder {
           font-family: "Open Sans", sans-serif;
           font-size: 18px;
           line-height: 1.556;
           font-weight: 400;
           color: rgba(179, 163, 255, 0.6); }
-        .player_search_wrapper .container .input_search_wrapper form input:focus {
+        .club_search_wrapper .container .input_search_wrapper form input:focus {
           -webkit-box-shadow: none;
           box-shadow: none;
           border: 1px solid #beaeff; }
-      .player_search_wrapper .container .input_search_wrapper form .btn {
+      .club_search_wrapper .container .input_search_wrapper form .btn {
         text-decoration: none;
         display: inline-block;
         font-family: "Open Sans", sans-serif;
@@ -1858,24 +1858,24 @@ section .container .invite_wrapper {
         position: absolute;
         top: 9px;
         right: 10px; }
-        .player_search_wrapper .container .input_search_wrapper form .btn:hover {
+        .club_search_wrapper .container .input_search_wrapper form .btn:hover {
           border: none;
           outline: none; }
-        .player_search_wrapper .container .input_search_wrapper form .btn:focus {
+        .club_search_wrapper .container .input_search_wrapper form .btn:focus {
           border: none;
           outline: none;
           -webkit-box-shadow: none;
           box-shadow: none; }
         @media only screen and (max-width: 767px) {
-          .player_search_wrapper .container .input_search_wrapper form .btn {
+          .club_search_wrapper .container .input_search_wrapper form .btn {
             font-size: 14px;
             padding: 12px 20px; } }
-        .player_search_wrapper .container .input_search_wrapper form .btn i {
+        .club_search_wrapper .container .input_search_wrapper form .btn i {
           font-size: 24px;
           display: inline-block;
           margin-right: 10px;
           line-height: 1.5; }
-  .player_search_wrapper .container .player_info_wrapper {
+  .club_search_wrapper .container .club_info_wrapper {
     background-color: #353471;
     padding: 20px 20px;
     -webkit-border-radius: 60px;
@@ -1884,7 +1884,7 @@ section .container .invite_wrapper {
     border-radius: 60px;
     margin-top: 30px;
     margin-bottom: 30px; }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-5 .player_info .player_img a {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-5 .club_info .club_img a {
       text-decoration: none;
       display: inline-block;
       width: 79px;
@@ -1895,17 +1895,17 @@ section .container .invite_wrapper {
       -ms-border-radius: 50%;
       border-radius: 50%;
       border: 2px solid red; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-5 .player_info .player_img a img {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-5 .club_info .club_img a img {
         max-width: 55px;
         height: auto;
         border: none;
         outline: none; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-5 .player_info .player_img a:hover {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-5 .club_info .club_img a:hover {
         text-decoration: none;
         outline: none; }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-5 .player_info .player_name {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-5 .club_info .club_name {
       margin-left: 20px; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-5 .player_info .player_name a {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-5 .club_info .club_name a {
         text-decoration: none;
         display: inline-block;
         font-family: "Rubik", sans-serif;
@@ -1913,15 +1913,15 @@ section .container .invite_wrapper {
         font-weight: 700;
         line-height: 1.5;
         color: #ffffff; }
-        .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-5 .player_info .player_name a:hover {
+        .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-5 .club_info .club_name a:hover {
           text-decoration: none; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-5 .player_info .player_name p {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-5 .club_info .club_name p {
         font-family: "Open Sans", sans-serif;
         font-size: 12px;
         font-weight: 600;
         color: #ffe27e;
         line-height: 1.667; }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .club_name span {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .club_name span {
       font-family: "Open Sans", sans-serif;
       font-size: 14px;
       font-weight: 700;
@@ -1932,48 +1932,48 @@ section .container .invite_wrapper {
       -moz-border-radius: 50px;
       -ms-border-radius: 50px;
       border-radius: 50px; }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .club_name .nba {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .club_name .nba {
       background-image: -moz-linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
       background-image: -webkit-linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
       background-image: -ms-linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
       background-image: linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%); }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .club_name .nfl {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .club_name .nfl {
       background-image: -moz-linear-gradient(45deg, #d73df5 0%, #8f3df5 100%);
       background-image: -webkit-linear-gradient(45deg, #d73df5 0%, #8f3df5 100%);
       background-image: -ms-linear-gradient(45deg, #d73df5 0%, #8f3df5 100%);
       background-image: linear-gradient(45deg, #d73df5 0%, #8f3df5 100%); }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .club_name .mlb {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .club_name .mlb {
       background-image: -moz-linear-gradient(-30deg, #65cff3 0%, #66a6ff 100%);
       background-image: -webkit-linear-gradient(-30deg, #65cff3 0%, #66a6ff 100%);
       background-image: -ms-linear-gradient(-30deg, #65cff3 0%, #66a6ff 100%);
       background-image: linear-gradient(-30deg, #65cff3 0%, #66a6ff 100%); }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .club_name .nhl {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .club_name .nhl {
       background-image: -moz-linear-gradient(135deg, #2cbfc7 0%, #46eeaa 100%);
       background-image: -webkit-linear-gradient(135deg, #2cbfc7 0%, #46eeaa 100%);
       background-image: -ms-linear-gradient(135deg, #2cbfc7 0%, #46eeaa 100%);
       background-image: linear-gradient(135deg, #2cbfc7 0%, #46eeaa 100%); }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .price {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .price {
       margin: 0px 40px; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .price p:first-child {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .price p:first-child {
         font-family: "Rubik", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.889;
         color: #ffffff; }
-        .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .price p:first-child i {
+        .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .price p:first-child i {
           color: #ffffff; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .price p:last-child {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .price p:last-child {
         font-size: 14px;
         font-family: "Open Sans", sans-serif;
         color: #1fa02a;
         font-weight: 700;
         line-height: 1.714; }
-        .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .price p:last-child i {
+        .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .price p:last-child i {
           color: #1fa02a; }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .value_chart img {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .value_chart img {
       max-width: 144px;
       height: auto; }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-12 .player_buy_sell .btn_wrapper .btn {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-12 .club_buy_sell .btn_wrapper .btn {
       text-decoration: none;
       display: inline-block;
       font-family: "Open Sans", sans-serif;
@@ -1990,7 +1990,7 @@ section .container .invite_wrapper {
       -ms-border-radius: 60px;
       border-radius: 60px;
       margin: 0px 5px; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-12 .player_buy_sell .btn_wrapper .btn:hover {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-12 .club_buy_sell .btn_wrapper .btn:hover {
         text-decoration: none;
         background-image: -moz-linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
         background-image: -webkit-linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
@@ -1998,7 +1998,7 @@ section .container .invite_wrapper {
         background-image: linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
         border: 1px solid transparent; }
 
-/*====player search section end====*/
+/*====club search section end====*/
 /*====game section start====*/
 .game_wrapper {
   background-color: #25294a;
@@ -2653,7 +2653,7 @@ section .container .video_wrapper {
 /*====experience section start====*/
 section .container .experience {
   background-color: #2a295b;
-  background-image: url("../images/experience/basketball_player.png"), url("../images/experience/football_player.png"), url("../images/experience/bg.png");
+  background-image: url("../images/experience/basketball_club.png"), url("../images/experience/football_club.png"), url("../images/experience/bg.png");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: auto, auto, contain;
   background-position: left bottom 40px, right top 50px, left 0px bottom 0px;
@@ -3844,10 +3844,10 @@ footer {
           -moz-border-radius: 0px 5px 5px 0px;
           -ms-border-radius: 0px 5px 5px 0px;
           border-radius: 0px 5px 5px 0px; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .img_wrapper {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .img_wrapper {
         margin-right: 15px;
         position: relative; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .img_wrapper a {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .img_wrapper a {
           text-decoration: none;
           display: inline-block;
           width: 70px;
@@ -3858,7 +3858,7 @@ footer {
           -moz-border-radius: 50%;
           -ms-border-radius: 50%;
           border-radius: 50%; }
-          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .img_wrapper a img {
+          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .img_wrapper a img {
             width: 55px;
             height: 60px;
             -webkit-border-radius: 50%;
@@ -3867,9 +3867,9 @@ footer {
             border-radius: 50%;
             border: none;
             outline: none; }
-          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .img_wrapper a:hover {
+          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .img_wrapper a:hover {
             text-decoration: none; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .img_wrapper .league {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .img_wrapper .league {
           position: absolute;
           bottom: 0%;
           left: 50%;
@@ -3894,9 +3894,9 @@ footer {
           background-image: -webkit-linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
           background-image: -ms-linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
           background-image: linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%); }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .info_wrapper {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .info_wrapper {
         display: inline-block; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .info_wrapper a {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .info_wrapper a {
           text-decoration: none;
           display: inline-block;
           font-size: 20px;
@@ -3904,9 +3904,9 @@ footer {
           font-weight: bold;
           line-height: 1.5;
           color: #ffffff; }
-          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .info_wrapper a:hover {
+          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .info_wrapper a:hover {
             text-decoration: none; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .info_wrapper p {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .info_wrapper p {
           font-family: "Open Sans", sans-serif;
           font-size: 12px;
           font-weight: 400;
@@ -5299,10 +5299,10 @@ footer {
     line-height: 1.2;
     color: #ffffff;
     margin-top: 5px; }
-.page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .tab_btn_wrapper {
+.page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .tab_btn_wrapper {
   background-color: #202442;
   padding: 24px 0px 71px; }
-  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .tab_btn_wrapper .tab_btnp {
+  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .tab_btn_wrapper .tab_btnp {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -5317,14 +5317,14 @@ footer {
     -webkit-box-shadow: none;
     box-shadow: none;
     display: inline-block; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .tab_btn_wrapper .tab_btnp:hover {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .tab_btn_wrapper .tab_btnp:hover {
       color: #f5317f; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .tab_btn_wrapper .tab_btnp:focus {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .tab_btn_wrapper .tab_btnp:focus {
       border: none;
       outline: none; }
-  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .tab_btn_wrapper .activ {
+  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .tab_btn_wrapper .activ {
     color: #f5317f; }
-.page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper {
+.page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper {
   background-color: #3a398a;
   padding: 17px 15px;
   position: relative;
@@ -5337,9 +5337,9 @@ footer {
   margin-bottom: 60px;
   max-width: 768px;
   margin: 0px auto -47px; }
-  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form {
+  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form {
     position: relative; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form input {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form input {
       padding: 15px 180px 15px 40px;
       -webkit-border-radius: 60px;
       -moz-border-radius: 60px;
@@ -5352,17 +5352,17 @@ footer {
       line-height: 1.556;
       font-weight: 400;
       color: #ffffff; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form input::placeholder {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form input::placeholder {
         font-family: "Open Sans", sans-serif;
         font-size: 18px;
         line-height: 1.556;
         font-weight: 400;
         color: rgba(179, 163, 255, 0.6); }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form input:focus {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form input:focus {
         -webkit-box-shadow: none;
         box-shadow: none;
         border: 1px solid #beaeff; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form .btn {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form .btn {
       text-decoration: none;
       display: inline-block;
       font-family: "Open Sans", sans-serif;
@@ -5392,48 +5392,48 @@ footer {
       position: absolute;
       top: 9px;
       right: 10px; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form .btn:hover {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form .btn:hover {
         border: none;
         outline: none; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form .btn:focus {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form .btn:focus {
         border: none;
         outline: none;
         -webkit-box-shadow: none;
         box-shadow: none; }
       @media only screen and (max-width: 767px) {
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form .btn {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form .btn {
           font-size: 14px;
           padding: 12px 20px; } }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form .btn i {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form .btn i {
         font-size: 24px;
         display: inline-block;
         margin-right: 10px;
         line-height: 1.5; }
-.page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs {
+.page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs {
   margin-top: 40px;
   overflow-x: auto;
   display: none; }
-  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table {
+  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table {
     border-collapse: separate;
     border-spacing: 0px 25px; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr {
       background-color: #353471; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr td {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr td {
         vertical-align: middle;
         padding: 15px 12px; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr td:first-child {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr td:first-child {
           -webkit-border-radius: 60px 0px 0px 60px;
           -moz-border-radius: 60px 0px 0px 60px;
           -ms-border-radius: 60px 0px 0px 60px;
           border-radius: 60px 0px 0px 60px;
           padding-left: 20px; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr td:last-child {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr td:last-child {
           -webkit-border-radius: 0px 60px 60px 0px;
           -moz-border-radius: 0px 60px 60px 0px;
           -ms-border-radius: 0px 60px 60px 0px;
           border-radius: 0px 60px 60px 0px;
           padding-right: 20px; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .profile_info .d-flex .wrapper a {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .profile_info .d-flex .wrapper a {
         text-decoration: none;
         display: inline-block;
         width: 79px;
@@ -5444,17 +5444,17 @@ footer {
         -ms-border-radius: 50%;
         border-radius: 50%;
         border: 2px solid red; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .profile_info .d-flex .wrapper a img {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .profile_info .d-flex .wrapper a img {
           max-width: 55px;
           height: auto;
           border: none;
           outline: none; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .profile_info .d-flex .wrapper a:hover {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .profile_info .d-flex .wrapper a:hover {
           text-decoration: none;
           outline: none; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .profile_info .d-flex .player_name {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .profile_info .d-flex .club_name {
         margin-left: 20px; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .profile_info .d-flex .player_name a {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .profile_info .d-flex .club_name a {
           text-decoration: none;
           display: inline-block;
           font-family: "Rubik", sans-serif;
@@ -5462,35 +5462,35 @@ footer {
           font-weight: 700;
           line-height: 1.5;
           color: #ffffff; }
-          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .profile_info .d-flex .player_name a:hover {
+          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .profile_info .d-flex .club_name a:hover {
             text-decoration: none; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .profile_info .d-flex .player_name p {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .profile_info .d-flex .club_name p {
           font-family: "Open Sans", sans-serif;
           font-size: 12px;
           font-weight: 600;
           color: #ffe27e;
           line-height: 1.667; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .price_range .d-flex .price {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .price_range .d-flex .price {
         margin: 0px 40px 0px 0px; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .price_range .d-flex .price p:first-child {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .price_range .d-flex .price p:first-child {
           font-family: "Rubik", sans-serif;
           font-size: 18px;
           font-weight: 700;
           line-height: 1.889;
           color: #ffffff; }
-          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .price_range .d-flex .price p:first-child i {
+          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .price_range .d-flex .price p:first-child i {
             color: #ffffff; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .price_range .d-flex .price p:last-child {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .price_range .d-flex .price p:last-child {
           font-size: 14px;
           font-family: "Open Sans", sans-serif;
           color: #1fa02a;
           font-weight: 700;
           line-height: 1.714; }
-          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .price_range .d-flex .price p:last-child i {
+          .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .price_range .d-flex .price p:last-child i {
             color: #1fa02a; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .price_range .d-flex .charts {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .price_range .d-flex .charts {
         margin-top: -6px; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .sell_buy .btn_wrapper .btn {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .sell_buy .btn_wrapper .btn {
         text-decoration: none;
         display: inline-block;
         font-family: "Open Sans", sans-serif;
@@ -5507,17 +5507,17 @@ footer {
         -ms-border-radius: 40px;
         border-radius: 40px;
         margin: 0px 5px; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .sell_buy .btn_wrapper .btn:hover {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .sell_buy .btn_wrapper .btn:hover {
           text-decoration: none;
           background-image: -moz-linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
           background-image: -webkit-linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
           background-image: -ms-linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
           background-image: linear-gradient(135deg, #f5317f 0%, #ff7c6e 100%);
           border: 1px solid transparent; }
-  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .show_wrapper {
+  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .show_wrapper {
     margin-top: 0px;
     padding: 30px 0px 30px; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .show_wrapper a {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .show_wrapper a {
       text-decoration: none;
       display: inline-block;
       font-family: "Open Sans", sans-serif;
@@ -5534,11 +5534,11 @@ footer {
       -webkit-transition: all 0.6s;
       -o-transition: all 0.6s;
       transition: all 0.6s; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .show_wrapper a:hover {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .show_wrapper a:hover {
         text-decoration: none;
         color: #ffffff;
         border: 1px solid #ffffff; }
-.page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .activ {
+.page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .activ {
   display: inherit; }
 
 .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .profile_cover_wrapper .cover_wrapper {
@@ -6350,9 +6350,9 @@ footer {
     background-size: 100% 100%;
     background-position: center center; }
 
-  .player_search_wrapper {
+  .club_search_wrapper {
     background-color: transparent;
-    background-image: url("../images/player_search/hockey.png"), url("../images/player_search/basketball.png");
+    background-image: url("../images/club_search/hockey.png"), url("../images/club_search/basketball.png");
     background-repeat: no-repeat, no-repeat;
     background-size: auto, auto;
     background-position: left 0px bottom 70px, right 0px bottom 20px; }
@@ -6554,9 +6554,9 @@ footer {
     background-position: center top;
     padding-bottom: 167px; }
 
-  .player_search_wrapper {
+  .club_search_wrapper {
     background-color: transparent;
-    background-image: url("../images/player_search/hockey.png"), url("../images/player_search/basketball.png");
+    background-image: url("../images/club_search/hockey.png"), url("../images/club_search/basketball.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 300px 400px, 300px 400px;
     background-position: left 0px top 200px, right 0px top 100px;
@@ -6662,9 +6662,9 @@ footer {
       padding-left: 15px; }
     .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr td:last-child {
       padding-right: 15px; }
-  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .info_wrapper a {
+  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .info_wrapper a {
     font-size: 16px; }
-  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .player_info .wrapper .info_wrapper p {
+  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .club_info .wrapper .info_wrapper p {
     font-size: 12px; }
   .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .change, .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .table_content_wrapper .table-responsive .table tbody tr .earning {
     font-size: 14px;
@@ -6764,22 +6764,22 @@ footer {
     .home_two_banner_wrapper .container .home_banner_row .col-lg-7 {
       display: block; }
 
-  .player_search_wrapper .container .input_search_wrapper {
+  .club_search_wrapper .container .input_search_wrapper {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
     border-radius: 0px; }
-    .player_search_wrapper .container .input_search_wrapper form input {
+    .club_search_wrapper .container .input_search_wrapper form input {
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
       -ms-border-radius: 0px;
       border-radius: 0px; }
-    .player_search_wrapper .container .input_search_wrapper form .btn {
+    .club_search_wrapper .container .input_search_wrapper form .btn {
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
       -ms-border-radius: 0px;
       border-radius: 0px; }
-  .player_search_wrapper .container .player_info_wrapper {
+  .club_search_wrapper .container .club_info_wrapper {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
@@ -6836,7 +6836,7 @@ footer {
     line-height: 1.278; }
 
   section .container .experience {
-    background-image: url("../images/experience/basketball_player.png"), url("../images/experience/football_player.png"), url("../images/experience/bg.png");
+    background-image: url("../images/experience/basketball_club.png"), url("../images/experience/football_club.png"), url("../images/experience/bg.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 300px 300px, 300px 300px, contain;
     background-position: left bottom 40px, right top 50px, left 0px bottom 0px; }
@@ -6965,20 +6965,20 @@ footer {
       display: block;
       margin-top: 40px; }
 
-  .player_search_wrapper {
+  .club_search_wrapper {
     padding-top: 100px; }
-    .player_search_wrapper .container .player_info_wrapper {
+    .club_search_wrapper .container .club_info_wrapper {
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
       -ms-border-radius: 0px;
       border-radius: 0px; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-5 {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-5 {
         margin-top: 20px;
         margin-bottom: 20px; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 {
         margin-top: 20px;
         margin-bottom: 20px; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-12 {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-12 {
         margin-top: 20px;
         margin-bottom: 20px; }
 
@@ -7044,7 +7044,7 @@ footer {
     padding-bottom: 100px; }
 
   section .container .experience {
-    background-image: url("../images/experience/basketball_player.png"), url("../images/experience/football_player.png"), url("../images/experience/bg.png");
+    background-image: url("../images/experience/basketball_club.png"), url("../images/experience/football_club.png"), url("../images/experience/bg.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 200px 200px, 200px 200px, contain;
     background-position: left bottom 40px, right top 50px, left 0px bottom 0px;
@@ -7122,38 +7122,38 @@ footer {
       font-size: 24px !important; }
     .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .league_info .name {
       font-size: 38px !important; }
-  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr td:first-child {
+  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr td:first-child {
     padding-left: 12px !important;
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
     -ms-border-radius: 0px !important;
     border-radius: 0px !important; }
-  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr td:last-child {
+  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr td:last-child {
     padding-right: 12px !important;
     margin-right: 12px;
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
     -ms-border-radius: 0px !important;
     border-radius: 0px !important; }
-  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .profile_info .d-flex .wrapper a {
+  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .profile_info .d-flex .wrapper a {
     width: 69px;
     height: 69px; }
-    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .profile_info .d-flex .wrapper a img {
+    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .profile_info .d-flex .wrapper a img {
       max-width: 45px;
       height: auto;
       border: none;
       outline: none; }
-  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .profile_info .d-flex .player_name a {
+  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .profile_info .d-flex .club_name a {
     font-size: 16px !important; }
-  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .price_range .d-flex .price {
+  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .price_range .d-flex .price {
     margin: 0px 40px 0px 0px; }
-    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .price_range .d-flex .price p:first-child {
+    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .price_range .d-flex .price p:first-child {
       font-size: 16px; }
-    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .price_range .d-flex .price p:last-child {
+    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .price_range .d-flex .price p:last-child {
       font-size: 14px; }
-  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .price_range .d-flex .charts {
+  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .price_range .d-flex .charts {
     margin-top: -6px; }
-  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table tr .sell_buy .btn_wrapper .btn {
+  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table tr .sell_buy .btn_wrapper .btn {
     padding: 3px 20px; }
   .page_wrapper .main_content .row .col-xl-9 .inner_left .fan_price_chart_wrapper .row .col-md-6 .pri_wrapper {
     margin-top: 0px; }
@@ -7198,17 +7198,17 @@ footer {
   .home_nav_two {
     margin-bottom: 70px; }
 
-  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper {
+  .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper {
     overflow-x: auto; }
-    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper .table {
+    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper .table {
       min-width: 768px;
       margin: auto; }
-    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper::-webkit-scrollbar {
+    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper::-webkit-scrollbar {
       width: 6px;
       height: 6px; }
-    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper::-webkit-scrollbar-track {
+    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper::-webkit-scrollbar-track {
       background-color: #fff; }
-    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tabs .players_responsive_table_wrapper::-webkit-scrollbar-thumb {
+    .page_wrapper .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tabs .clubs_responsive_table_wrapper::-webkit-scrollbar-thumb {
       background-color: #25294a;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -7320,18 +7320,18 @@ footer {
       width: 100%;
       height: 100%; }
 
-  .player_search_wrapper {
+  .club_search_wrapper {
     padding-top: 80px; }
-    .player_search_wrapper .container .input_search_wrapper {
+    .club_search_wrapper .container .input_search_wrapper {
       padding: 12px 10px; }
-      .player_search_wrapper .container .input_search_wrapper form input {
+      .club_search_wrapper .container .input_search_wrapper form input {
         padding: 17px 135px 17px 10px;
         font-size: 16px;
         line-height: 1.556; }
-        .player_search_wrapper .container .input_search_wrapper form input::placeholder {
+        .club_search_wrapper .container .input_search_wrapper form input::placeholder {
           font-size: 16px;
           line-height: 1.556; }
-      .player_search_wrapper .container .input_search_wrapper form .btn {
+      .club_search_wrapper .container .input_search_wrapper form .btn {
         padding: 5px 15px;
         font-size: 16px;
         line-height: 1.556;
@@ -7541,7 +7541,7 @@ footer {
           padding: 10px; }
 
   section .container .experience {
-    background-image: url("../images/experience/basketball_player.png"), url("../images/experience/football_player.png"), url("../images/experience/bg.png");
+    background-image: url("../images/experience/basketball_club.png"), url("../images/experience/football_club.png"), url("../images/experience/bg.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 150px 150px, 150px 150px, contain;
     background-position: left bottom 40px, right bottom 80px, left 0px bottom 0px;
@@ -7737,12 +7737,12 @@ footer {
       font-size: 20px !important; }
     .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .league_info .name {
       font-size: 30px !important; }
-  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .tab_btn_wrapper {
+  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .tab_btn_wrapper {
     background-color: #202442;
     padding: 18px 0px 18px; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .tab_btn_wrapper .tab_btnp {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .tab_btn_wrapper .tab_btnp {
       font-size: 16px; }
-  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper {
+  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper {
     background-color: #3a398a;
     padding: 15px 12px;
     -webkit-border-radius: 0px;
@@ -7752,22 +7752,22 @@ footer {
     margin-bottom: 60px;
     position: static;
     top: 0px; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form {
       position: relative; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form input {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form input {
         padding: 8px 16px;
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
         -ms-border-radius: 0px;
         border-radius: 0px;
         font-size: 14px; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form input::placeholder {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form input::placeholder {
           font-size: 14px; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form input:focus {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form input:focus {
           -webkit-box-shadow: none;
           box-shadow: none;
           border: 1px solid #beaeff; }
-      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form .btn {
+      .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form .btn {
         text-decoration: none;
         display: inline-block;
         font-family: "Open Sans", sans-serif;
@@ -7797,37 +7797,37 @@ footer {
         position: static;
         display: block;
         margin-top: 15px; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form .btn:hover {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form .btn:hover {
           border: none;
           outline: none; }
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form .btn:focus {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form .btn:focus {
           border: none;
           outline: none;
           -webkit-box-shadow: none;
           box-shadow: none; } }
       @media only screen and (max-width: 767px) and (max-width: 767px) {
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form .btn {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form .btn {
           font-size: 14px;
           padding: 12px 20px; } }
 @media only screen and (max-width: 767px) {
-        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper .player_search_tab_wrapper form .btn i {
+        .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper .club_search_tab_wrapper form .btn i {
           font-size: 22px;
           display: inline-block;
           margin-right: 10px;
           line-height: 1.5; }
-  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper #best .players_responsive_table_wrapper {
+  .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper #best .clubs_responsive_table_wrapper {
     overflow-x: scroll; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper #best .players_responsive_table_wrapper::-webkit-scrollbar {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper #best .clubs_responsive_table_wrapper::-webkit-scrollbar {
       height: 6px; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper #best .players_responsive_table_wrapper::-webkit-scrollbar-track {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper #best .clubs_responsive_table_wrapper::-webkit-scrollbar-track {
       background-color: #202442; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper #best .players_responsive_table_wrapper::-webkit-scrollbar-thumb {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper #best .clubs_responsive_table_wrapper::-webkit-scrollbar-thumb {
       background-color: #343a6a;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       -ms-border-radius: 5px;
       border-radius: 5px; }
-    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .players_tab_wrapper #best .players_responsive_table_wrapper .table {
+    .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .league_cover_wrapper .clubs_tab_wrapper #best .clubs_responsive_table_wrapper .table {
       width: 768px; }
   .page_wrapper .body_content .main_content .row .col-xl-9 .inner_left .profile_cover_wrapper .cover_wrapper {
     background-repeat: no-repeat;
@@ -8044,34 +8044,34 @@ footer {
       width: 30px;
       height: 30px; }
 
-  .player_search_wrapper .container .input_search_wrapper {
+  .club_search_wrapper .container .input_search_wrapper {
     padding: 20px 12px; }
-    .player_search_wrapper .container .input_search_wrapper form {
+    .club_search_wrapper .container .input_search_wrapper form {
       position: static; }
-      .player_search_wrapper .container .input_search_wrapper form input {
+      .club_search_wrapper .container .input_search_wrapper form input {
         padding: 17px 10px;
         font-size: 16px;
         line-height: 1.556; }
-        .player_search_wrapper .container .input_search_wrapper form input::placeholder {
+        .club_search_wrapper .container .input_search_wrapper form input::placeholder {
           font-size: 16px;
           line-height: 1.556; }
-      .player_search_wrapper .container .input_search_wrapper form .btn {
+      .club_search_wrapper .container .input_search_wrapper form .btn {
         padding: 5px 15px;
         font-size: 16px;
         line-height: 1.556;
         position: static;
         margin: 20px 0px 10px; }
-  .player_search_wrapper .container .player_info_wrapper {
+  .club_search_wrapper .container .club_info_wrapper {
     padding: 20px 12px; }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .price {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .price {
       margin: 0px 20px; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .price p:first-child {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .price p:first-child {
         font-size: 14px;
         line-height: 1.556; }
-      .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .price p:last-child {
+      .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .price p:last-child {
         font-size: 12px;
         line-height: 1.556; }
-    .player_search_wrapper .container .player_info_wrapper .player_info_row .col-md-7 .player_price .value_chart img {
+    .club_search_wrapper .container .club_info_wrapper .club_info_row .col-md-7 .club_price .value_chart img {
       max-width: 100px;
       height: auto; }
 
@@ -8220,7 +8220,7 @@ footer {
   section .container .experience {
     padding-right: 12px;
     padding-left: 12px;
-    background-image: url("../images/experience/basketball_player.png"), url("../images/experience/football_player.png"), url("../images/experience/bg.png");
+    background-image: url("../images/experience/basketball_club.png"), url("../images/experience/football_club.png"), url("../images/experience/bg.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 80px 80px, 80px 80px, contain;
     background-position: left bottom 100px, right bottom 20px, left 0px bottom 0px; }
