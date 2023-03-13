@@ -1419,7 +1419,7 @@ section .container .work_wrapper {
   section .container .work_wrapper .section_info {
     margin-top: 13px; }
 section .container .work_row {
-  padding-bottom: 90px; }
+  padding-bottom: 0px; }
   section .container .work_row .col-lg-4 {
     margin-top: 30px;
     margin-bottom: 30px; }
@@ -1601,7 +1601,7 @@ section .container .invite_wrapper {
 /*====invite section end====*/
 /*====testimonial section start====*/
 .testimonial_section {
-  padding: 110px 0px 80px; }
+  padding: 0px 0px 0px; }
   .testimonial_section .container .testimonial_title_wrapper {
     max-width: 790px;
     margin: 0px auto 30px; }
